@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+#customers {
+  font-family:serif;
+  border-collapse: collapse;
+  width:90%;
+  text-align: center;
+}
+
+#customers td, #customers th {
+ 
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:#6f32a8;
+  color: white;
+}
